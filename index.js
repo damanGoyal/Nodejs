@@ -10,9 +10,9 @@ const { array } = req.body;
 
 // Initialize response variables
 const status = "Success";
-const userId = 123; // Replace with actual user ID retrieval logic
-const emailId = "example@example.com"; // Replace with actual email ID
-const collegeRollNumber = "ABCD123"; // Replace with actual college roll number
+const userId = "Daman goyal"; // Replace with actual user ID retrieval logic
+const emailId = "daman0403.be21@chitkara.edu.in"; // Replace with actual email ID
+const collegeRollNumber = "2110990403"; // Replace with actual college roll number
 
 // Process the array
 const evenNumbers = array.filter(num => num % 2 === 0 && typeof num === 'number');
